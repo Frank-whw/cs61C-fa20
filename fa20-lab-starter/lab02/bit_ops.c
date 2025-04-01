@@ -39,6 +39,6 @@ void flip_bit(unsigned *x,
               unsigned n)
 {
     // YOUR CODE HERE
-    unsigned v = ~get_bit(*x, n);
+    unsigned v = !get_bit(*x, n);
     set_bit(x, n, v);
 }
